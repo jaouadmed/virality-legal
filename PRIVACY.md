@@ -12,6 +12,14 @@ With the owner's permission (Google OAuth), the tool receives an access token fo
 
 No data is shared with third parties. Videos are sent only to YouTube.
 
+## YouTube API Services
+
+This app uses YouTube API Services. By using it you agree to be bound by the [YouTube Terms of Service](https://www.youtube.com/t/terms). Google's handling of data is described in the [Google Privacy Policy](https://policies.google.com/privacy).
+
+## Data retention and deletion
+
+The only stored data is the OAuth refresh token and the IDs of videos the tool uploaded, kept in a local file on the owner's computer. They are deleted when access is revoked or when the owner deletes the local configuration, and in any case are not kept longer than needed to upload videos. Revoking access below stops all further API use immediately.
+
 ## Revoking access
 
 Access can be revoked at any time at [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
